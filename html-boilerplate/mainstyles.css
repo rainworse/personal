@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    /* border: 2px solid red; */
+}
+
+.branding {
+    margin: 0px;
+    padding-bottom: 0.5rem;
+    background-color: deeppink;
+    border-bottom: 0.5rem solid rgb(172, 36, 172);
+}
+
+.brand {
+    margin: 0px auto auto auto;
+}
+
+.slogan {
+    margin: auto;
+}
+
+.content {
+    margin-left: 30px;
+}
+
+.main-stuff {
+    display: flex;
+}
+
+/* .reasons, .also {
+    display: inline-block;
+} */
+
+.also {
+    margin-left: 50px;
+}
+
+.high-protein {
+    width: 150px;
+}

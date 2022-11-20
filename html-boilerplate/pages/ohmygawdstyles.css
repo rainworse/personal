@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.meal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: auto;
+}
+
+.money {
+    background-color: #48ff00;
+    color: purple;
+    font-weight: 1000;
+    font-size: 50px;
+}
