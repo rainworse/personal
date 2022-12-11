@@ -1,0 +1,179 @@
+* {
+    /* border: 2px red solid; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.website-top-background {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.website-top {
+    color: #F9FAF8;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.header > .logo {
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.header > a {
+    margin-left: 15px;
+}
+
+.top-content {
+    margin: 150px 0;
+    display: flex;
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-image {
+    background-color: #3c4b5f;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.nudes {
+    width: 100px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    border:rgb(0, 132, 255) 2px solid;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.main-content-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.main-content-content {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+.thing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 5px #3882F6 solid;
+}
+
+.square-subtext {
+    width: 200px;
+    text-align: center;
+}
+
+.quote-background {
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.dope-quote-hella-dope {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 450px;
+    padding-right: 450px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quote-source {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.call-to-action {
+    margin: 150px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px;
+    width: 50%;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #E5E7EB;
+    align-items: center;
+}
+
+.call-to-action-button {
+    margin-left: auto;
+    border: 2px #F9FAF8 solid;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.call-to-action-text {
+    font-size: 30px;
+}
+
+.call-to-action-text-bold {
+    font-weight: bolder;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+    font-size: 20px;
+}
