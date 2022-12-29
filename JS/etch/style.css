@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+.change-size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#change-size-button {
+    font-size: 30px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#size-text-box {
+    height: 60px;
+    width: 60px;
+    flex-shrink: 1;
+    font-size: 35px;
+}

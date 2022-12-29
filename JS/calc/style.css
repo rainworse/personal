@@ -1,0 +1,56 @@
+.output {
+    font-size: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 50px;
+    padding: 30px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-four-rows {
+    display: flex;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+#button0 {
+    flex: 1;
+}
+
+#buttondot {
+    width: 33%;
+}
+
+.bottom-row {
+    display: flex;
+}
+
+.bottom-row > * {
+    flex-grow: 1;
+}
+
+#buttonclear {
+    width: 50%;
+}
+
+.operations > * {
+    background-color: bisque;
+}
