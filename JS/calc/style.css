@@ -54,3 +54,8 @@ button {
 .operations > * {
     background-color: bisque;
 }
+
+body {
+    transform: skewy(5deg);
+    filter: hue-rotate(90deg);
+}
